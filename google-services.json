@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "689403206648",
+    "firebase_url": "https://authenticate-c8b41.firebaseio.com",
+    "project_id": "authenticate-c8b41",
+    "storage_bucket": "authenticate-c8b41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689403206648:android:f6c23f3a2df92dd5",
+        "android_client_info": {
+          "package_name": "com.example.bindu_madhavi.authenticate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689403206648-lpu4o0lkhq18kk5ejhv1d5uis6mlqh5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bindu_madhavi.authenticate",
+            "certificate_hash": "819620cc9df51ec9eb19958158366bd351251593"
+          }
+        },
+        {
+          "client_id": "689403206648-m1fb1lc8n45qdnk8gd67l3pnaa3cp201.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaHJce00xEY4qBkgFFM_Mh7QOo97PgxkA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689403206648-m1fb1lc8n45qdnk8gd67l3pnaa3cp201.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
