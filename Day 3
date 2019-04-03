@@ -1,0 +1,6 @@
+Implemented a login activity for the user , where there are 3 type of users such as student , professor and admin.
+initially the student login page was created where there are some set of details that has to be filled. 
+first on the login page the user has to fill his/her user name or mail id and type their password and there is a drop down menu where the user need to choose the type of user he/she is i.e, student or professor or admin.
+if the are new users then they have to register and then login .
+if the user name and password along with the type of user he/she is correct then the next page will be displayed.
+working on google firebase and its uses to maintain a database.
