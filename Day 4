@@ -1,4 +1,6 @@
-updated the github account with week 1 progress and successfully completed " first commit" of the code.
+updated the github account with week 1 progress .
 designing the student and professor module that is the database tables .
 student module will have some set of details or information regarding student such as his name and some detais of the student.
+the contents of the student database are the student's USN, semester , section ,room and reason to contact and the time he need to book and the date for which he needs an appointment.
+the professor can accept 3 requests at the same time and has an authority to cance
 wordpress blog update . 
