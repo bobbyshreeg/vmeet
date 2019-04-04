@@ -4,5 +4,5 @@ student has to enter his/her USN , USN is the university seat number and the stu
 the student should provide the email id and password to complete the registration .
 if the registration done by the student is successful then he will be able to log in to the app .
 the separate database for student was maintained in firebase .
-the advantage of firebase is that if the app does run of a centralized database, and is updated by a lot of users - then it's more than capable of handling the Real-Time data updates between devices.
+the advantage of firebase is that if the app does run of a centralized database, and is updated by lot of users - then it's more than capable of handling the Real-Time data updates between devices.
 Stored in the cloud so readily available everywhere.
