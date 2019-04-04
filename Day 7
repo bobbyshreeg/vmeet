@@ -1,0 +1,6 @@
+learnt more about firebase and the use of firebase .
+firebase provides a real time database and the backend as a service.
+it also provides secure file uploads and downloads for apps regardless of the network quality.
+the tables in the database for both student and professor  was created in order to store the details of the student and professor.
+the student table contains the information about the fields of student's first name, last name ,section ,semester , usn , department , email id and password.
+the professor table contains the information about the fields of professor's first name , last name , professor id ,department ,email id and password.
