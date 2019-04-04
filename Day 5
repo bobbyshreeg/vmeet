@@ -1,0 +1,8 @@
+Register page of student  was created.
+In student's register page the student need to fill some set of details.
+student has to enter his/her USN , USN is the university seat number and the student has to give his first name and last name and along with that the student has to select the department which he/she is studying in and the current semester they are in and the section should be selected.
+the student should provide the email id and password to complete the registration .
+if the registration done by the student is successful then he will be able to log in to the app .
+the separate database for student was maintained in firebase .
+the advantage of firebase is that if the app does run of a centralized database, and is updated by a lot of users - then it's more than capable of handling the Real-Time data updates between devices.
+Stored in the cloud so readily available everywhere.
