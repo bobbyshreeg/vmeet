@@ -2,5 +2,5 @@ the registration page of professor was created.
 the professor should provide the first name and last name along with the professor id and other few details.
 once the registraion is done , then the professor will be able to log in and schedule the free hours for the student .
 separate database for the professor is been maintained .
-here the firebase is been used to maintain the database because If the app does run of a centralized database, and is updated by a lot of users - then it's more than capable of handling the Real-Time data updates between devices.
+here the firebase is been used to maintain the database because if the app does run of a centralized database, and is updated by a lot of users, then it's more than capable of handling the Real-Time data updates between devices.
 Stored in the cloud so readily available everywhere.
