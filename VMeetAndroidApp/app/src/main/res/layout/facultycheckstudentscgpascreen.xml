@@ -1,0 +1,367 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+        <EditText
+            android:id="@+id/et_student_usn"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:hint="     Enter Student USN"
+            android:layout_gravity="center"
+            android:layout_weight="1.5"/>
+
+
+
+            <Button
+                android:id="@+id/btn_find"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:text="Find"
+                android:background="#3F51B5"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_weight="0.5"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"/>
+
+        <LinearLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_student_cgpa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student CGPA"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+                android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student SGPA"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:text="S1: "
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_weight="0.5"/>
+
+                <EditText
+                    android:id="@+id/et_s1"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.5"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10sp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="wrap_content"
+                        android:text="S2: "
+                        android:textSize="20sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_weight="0.5"/>
+
+                    <EditText
+                        android:id="@+id/et_s2"
+                        android:layout_width="0sp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:textColor="#000000"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.5"/>
+
+
+        </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10sp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:text="S3: "
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_weight="0.5"/>
+
+                <EditText
+                    android:id="@+id/et_s3"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.5"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10sp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:text="S4: "
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_weight="0.5"/>
+
+                <EditText
+                    android:id="@+id/et_s4"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.5"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10sp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:text="S5: "
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_weight="0.5"/>
+
+                <EditText
+                    android:id="@+id/et_s5"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.5"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10sp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:text="S6: "
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_weight="0.5"/>
+
+                <EditText
+                    android:id="@+id/et_s6"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.5"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10sp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:text="S7: "
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_weight="0.5"/>
+
+                <EditText
+                    android:id="@+id/et_s7"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.5"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10sp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:text="S8: "
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF"
+                    android:layout_weight="0.5"/>
+
+                <EditText
+                    android:id="@+id/et_s8"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.5"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"/>
+
+        <Button
+            android:id="@+id/btn_cgpa"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="CGPA"
+            android:background="#3F51B5"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

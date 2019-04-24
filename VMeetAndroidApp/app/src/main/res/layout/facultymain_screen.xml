@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="#E91E63"
+            android:layout_gravity="center"
+            android:fontFamily="@style/RobotoTextViewStyle"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <TextView
+            android:id="@+id/textViews4"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:text="" />
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5.5">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="130sp"
+                android:layout_weight="0.5"/>
+
+            <pragma.embd.vmeetandroidapp.RoundedImageView
+                android:id="@+id/img_attendance"
+                android:layout_width="0sp"
+                android:layout_height="130sp"
+                android:src="@drawable/attendance"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="130sp"
+                android:layout_weight="0.5"/>
+
+            <pragma.embd.vmeetandroidapp.RoundedImageView
+                android:id="@+id/img_scheduler"
+                android:layout_width="0sp"
+                android:layout_height="130dp"
+                android:src="@drawable/scheduler"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="130sp"
+                android:layout_weight="0.5"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5.5">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="10sp"
+                android:layout_weight="0.5"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:text="      ATTENDANCE"
+                android:textStyle="bold"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="10sp"
+                android:layout_weight="0.5"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:text="         SCHEDULER"
+                android:textStyle="bold"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="10sp"
+                android:layout_weight="0.5"/>
+        </TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"
+            android:text="" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5.5">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="130sp"
+                android:layout_weight="0.5"/>
+
+            <pragma.embd.vmeetandroidapp.RoundedImageView
+                android:id="@+id/img_notes"
+                android:layout_width="0sp"
+                android:layout_height="130sp"
+                android:src="@drawable/notes"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="130sp"
+                android:layout_weight="0.5"/>
+
+            <pragma.embd.vmeetandroidapp.RoundedImageView
+                android:id="@+id/img_students_profile"
+                android:layout_width="0sp"
+                android:layout_height="130sp"
+                android:src="@drawable/profile"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="130sp"
+                android:layout_weight="0.5"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5.5">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="10sp"
+                android:layout_weight="0.5"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:text="             MESSAGES"
+                android:textStyle="bold"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="10sp"
+                android:layout_weight="0.5"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:text="            PROFILE  "
+                android:textStyle="bold"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="10sp"
+                android:layout_weight="0.5"/>
+        </TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"
+            android:text="" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5.5">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="130sp"
+                android:layout_weight="0.5"/>
+
+            <pragma.embd.vmeetandroidapp.RoundedImageView
+                android:id="@+id/img_update_availability"
+                android:layout_width="0sp"
+                android:layout_height="130sp"
+                android:src="@drawable/availability"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="130sp"
+                android:layout_weight="0.5"/>
+
+            <pragma.embd.vmeetandroidapp.RoundedImageView
+                android:id="@+id/img_view_appointments"
+                android:layout_width="0sp"
+                android:layout_height="130sp"
+                android:src="@drawable/appointments"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="130sp"
+                android:layout_weight="0.5"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5.5">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="10sp"
+                android:layout_weight="0.5"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:text="UPDATE AVAILABILTY"
+                android:textStyle="bold"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="10sp"
+                android:layout_weight="0.5"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:text= "VIEW APPOINTMENTS"
+                android:textStyle="bold"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="10sp"
+                android:layout_weight="0.5"/>
+        </TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"
+            android:text="" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5.5">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="130sp"
+                android:layout_weight="0.5"/>
+
+            <pragma.embd.vmeetandroidapp.RoundedImageView
+                android:id="@+id/img_student_cgpa"
+                android:layout_width="0sp"
+                android:layout_height="130sp"
+                android:src="@drawable/notes"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="130sp"
+                android:layout_weight="0.5"/>
+
+            <pragma.embd.vmeetandroidapp.RoundedImageView
+                android:id="@+id/img_logout"
+                android:layout_width="0sp"
+                android:layout_height="130sp"
+                android:src="@drawable/logout"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="130sp"
+                android:layout_weight="0.5"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5.5">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="10sp"
+                android:layout_weight="0.5"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:text="              CGPA"
+                android:textStyle="bold"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="10sp"
+                android:layout_weight="0.5"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:text="            LOGOUT  "
+                android:textStyle="bold"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="10sp"
+                android:layout_weight="0.5"/>
+        </TableRow>
+
+
+    </LinearLayout>
+
+</ScrollView>

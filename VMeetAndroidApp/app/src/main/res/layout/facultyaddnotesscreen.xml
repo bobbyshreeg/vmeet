@@ -1,0 +1,79 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background">
+
+
+
+        <Spinner
+            android:id="@+id/sp_semester"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"/>
+
+
+        <Spinner
+            android:id="@+id/sp_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"/>
+
+        <EditText
+            android:id="@+id/et_notes_title"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Enter Title Here"
+            android:textColor="#000000"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20sp"/>
+
+        <EditText
+            android:id="@+id/et_notes_details"
+            android:layout_width="300sp"
+            android:layout_height="250sp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Enter Details Here"
+            android:textColor="#000000"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"/>
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:background="#3F51B5"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

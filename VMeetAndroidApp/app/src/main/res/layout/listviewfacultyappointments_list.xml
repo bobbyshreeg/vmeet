@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:weightSum="3.0">
+
+    <TextView
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"/>
+
+
+    <LinearLayout
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/tv_faculty_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_faculty_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AAA"
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tv_faculty_empid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AAA"
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+
+
+        <TextView
+            android:id="@+id/tv_faculty_emailid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AAA"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+
+
+        <TextView
+            android:id="@+id/tv_faculty_phoneno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:text="AAA"/>
+
+
+        <TextView
+            android:id="@+id/tv_faculty_availability"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="AAA"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.5">
+
+        <Button
+            android:id="@+id/btn_request_appointment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Request Appointment"
+            android:background="#3F51B5"
+            android:textColor="#FFFFFF"/>
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"/>
+
+</LinearLayout>

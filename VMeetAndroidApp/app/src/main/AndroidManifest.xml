@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pragma.embd.vmeetandroidapp">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WelcomeScreenActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity android:name=".AdminLoginScreenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".AdminMainScreenActivity"
+            android:screenOrientation="portrait"/>
+
+
+        <activity android:name=".AdminCheckStudentFacultyProfileScreenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".AdminViewAppointmentListScreenActivity"
+            android:screenOrientation="portrait"/>
+
+
+
+
+        <activity android:name=".StudentLoginScreenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".FacultyLoginScreenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".StudentRegistrationScreenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".FacultyRegistrationScreenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".ForgotPasswordScreenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".FacultyMainScreenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".FacultyAddModifyStudentsAttendanceScreenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".FacultyCheckStudentsProfileScreenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".FacultySchedulerlistScreenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".FacultyAddSchedulerScreenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".FacultyNotesListScreenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".FacultyAddNotesScreenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".FacultyCheckStudentsCGPAScreenActivity"
+            android:screenOrientation="portrait"/>
+
+
+        <activity android:name=".FacultyAppointmentListScreenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".FacultyUpdateAvailabiltyScreenActivity"
+            android:screenOrientation="portrait"/>
+
+
+        <activity android:name=".FacultyViewAppointmentListScreenActivity"
+            android:screenOrientation="portrait"/>
+
+
+        <activity android:name=".StudentsMainScreenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".StudentSchedulerlistScreenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".StudentsNotesListScreenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".StudentsProfileScreenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".StudentRequestAppointmentsScreenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".StudentsAppointmentListScreenActivity"
+            android:screenOrientation="portrait"/>
+
+
+
+
+    </application>
+
+</manifest>
